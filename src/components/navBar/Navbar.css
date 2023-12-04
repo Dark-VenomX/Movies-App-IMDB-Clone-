@@ -1,0 +1,45 @@
+/* Navbar.css */
+
+.navbar-container {
+  margin: 0;
+  padding: 1rem 2rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 0 15px; /* Slightly reduce the margin */
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ff4d4d;
+}
+
+.navbar-logo {
+  width: 50px; /* Slightly reduce the logo size */
+  cursor: pointer;
+}
+
+.user-avatar {
+  font-size: 1.8rem; /* Slightly reduce the font size */
+  color: white;
+}
+
+/* Optional: Add a border-radius for a rounded navbar */
+.navbar-container {
+  border-radius: 10px;
+}
