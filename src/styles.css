@@ -1,0 +1,6 @@
+.App {
+  background: linear-gradient(to bottom, #1a1a1a, #282c34); /* Gradient background */
+  color: #61dafb; /* Text color */
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
